@@ -5,8 +5,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description"
-    content="Psd to html project">
+  <meta name="description" content="Psd to html project">
   <meta name="keywords" content="HTML, CSS, JavaScript, PSD">
   <meta name="author" content="Tamzid Mahmud">
   <meta name="theme-color" content="#7833f3">
@@ -14,10 +13,12 @@
   <link rel="icon" href="img/logo.png">
   <!-- Bootstrap CSS -->
   <!-- build:css css/main.css -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!-- <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css"> -->
+  <link rel="stylesheet" href="css/bxslider.min.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/responsive.css">
 
@@ -27,12 +28,276 @@
 
 <body>
 
+  <header>
+    <div class="bg-grey width-full flex justify-center">
+      <div class="header_top flex width-full">
+        <div class="flex">
+          <p class="pr-1"><span><i class="far fa-envelope"></i></span> info@reen.com</p>
+          <p class="pl-1"><i class="fas fa-mobile-alt"></i> +00 (123) 456 78 90</p>
+        </div>
+        <div>
+          <ul class="flex list-unstyle">
+            <li><i class="fab fa-facebook-f"></i></li>
+            <li><i class="fab fa-google-plus-g"></i></li>
+            <li><i class="fab fa-twitter"></i></li>
+            <li><i class="fab fa-pinterest-p"></i></li>
+            <li><i class="fab fa-behance"></i></li>
+            <li><i class="fab fa-dribbble"></i></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <nav class="flex justify-center pt-2 pb-2">
+      <div class="header_bottom flex justify-between">
+        <div>
+          <img src="img/logo.png" alt="" class="img-fluid logo">
+        </div>
+        <ul class="navbar list-unstyle flex align-center">
+          <li><a href="">HOME</a></li>
+          <li><a href="">Portfolio</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Pages</a></li>
+          <li><a href="">Features</a></li>
+          <li><a href="">Mega Menu</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+        <div class="search_bar align-center flex ">
+          <form action="#">
+            <button class="btn_search"><i class="fas fa-search"></i></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="next_section flex justify-center align-center">
+    <div class="flex justify-center align-center container">
+      <h1>Made for Designers</h1>
+      <p class="text-center pt-1 pb-2">Create your online portfolio in minutes with the professionally and lovingly
+        designed REEN website template. Customize your site with versatile and easy to use features.</p>
+      <button class="btn">Get started now</button>
+    </div>
+  </section>
+
+  <section class="first_section flex justify-center align-center">
+    <div class="flex justify-center align-center flex-col">
+      <h2>Beautiful. Clean. Responsive.</h2>
+      <p class="pt-2 pb-3">REEN is a high-quality solution for those who want a beautiful website in no time. It's
+        fully responsive and
+        will adapt itself to any mobile device. iPad, iPhone, Android, it doesn't matter. Your content will always looks
+        its absolute best.</p>
+      <div class="creative_box flex justify-between width-full">
+        <div>
+          <div>
+            <span><i class="far fa-heart"></i></span>
+          </div>
+          <div>
+            <h4>Passion</h4>
+            <p>Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem
+              rest non restibusaes maio es dem tumquam core posae volor remped modis volor.</p>
+          </div>
+        </div>
+        <div>
+          <div>
+            <span><i class="far fa-lightbulb"></i></span>
+          </div>
+          <div>
+            <h4>Passion</h4>
+            <p>Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem
+              rest non restibusaes maio es dem tumquam core posae volor remped modis volor.</p>
+          </div>
+        </div>
+        <div>
+          <div>
+            <span><i class="far fa-star"></i></span>
+          </div>
+          <div>
+            <h4>Quality</h4>
+            <p>Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem
+              rest non restibusaes maio es dem tumquam core posae volor remped modis volor.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="slider-area">
+    <div class="item">
+      <section class="section_3 flex flex-col align-center">
+        <div class="flex  flex-col align-center">
+          <h2>Check out our latest works</h2>
+          <p>Magnis modipsae que voloratati andigen daepeditem quiate re porem aut labor.</p>
+          <div class="work_section">
+            <div class="work_section_upper flex justify-between">
+              <div>
+                <div><img src="img/work_item_1.jpg" alt="" class="img-fluid"></div>
+                <div class="flex flex-col align-center pt-2 pb-2">
+                  <h5>Grand Motel gets an identity brushup</h5>
+                  <p>Identity</p>
+                </div>
+              </div>
+              <div>
+                <div><img src="img/work_item_2.jpg" alt="" class="img-fluid"></div>
+                <div class="flex flex-col align-center pt-2 pb-2">
+                  <h5>Fresh branding for a creative startup</h5>
+                  <p>Identity</p>
+                </div>
+              </div>
+            </div>
+            <div class="work_section_lower flex justify-between">
+              <div><img src="img/work_item_3.jpg" alt="" class="img-fluid"></div>
+              <div><img src="img/work_item_4.jpg" alt="" class="img-fluid"></div>
+              <div><img src="img/work_item_5.jpg" alt="" class="img-fluid"></div>
+              <div><img src="img/work_item_6.jpg" alt="" class="img-fluid"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+    <div class="item">
+      <section class="section_3 flex flex-col align-center">
+        <div class="flex  flex-col align-center">
+          <h2>Check out our latest works</h2>
+          <p>Magnis modipsae que voloratati andigen daepeditem quiate re porem aut labor.</p>
+          <div class="work_section">
+            <div class="work_section_upper flex justify-between">
+              <div>
+                <div><img src="img/work_item_1.jpg" alt="" class="img-fluid"></div>
+                <div class="flex flex-col align-center pt-2 pb-2">
+                  <h5>Grand Motel gets an identity brushup</h5>
+                  <p>Identity</p>
+                </div>
+              </div>
+              <div>
+                <div><img src="img/work_item_2.jpg" alt="" class="img-fluid"></div>
+                <div class="flex flex-col align-center pt-2 pb-2">
+                  <h5>Fresh branding for a creative startup</h5>
+                  <p>Identity</p>
+                </div>
+              </div>
+            </div>
+            <div class="work_section_lower flex justify-between">
+              <div><img src="img/work_item_3.jpg" alt="" class="img-fluid"></div>
+              <div><img src="img/work_item_4.jpg" alt="" class="img-fluid"></div>
+              <div><img src="img/work_item_5.jpg" alt="" class="img-fluid"></div>
+              <div><img src="img/work_item_6.jpg" alt="" class="img-fluid"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+    <div class="item">
+      <section class="section_3 flex flex-col align-center">
+        <div class="flex  flex-col align-center">
+          <h2>Check out our latest works</h2>
+          <p>Magnis modipsae que voloratati andigen daepeditem quiate re porem aut labor.</p>
+          <div class="work_section">
+            <div class="work_section_upper flex justify-between">
+              <div>
+                <div><img src="img/work_item_1.jpg" alt="" class="img-fluid"></div>
+                <div class="flex flex-col align-center pt-2 pb-2">
+                  <h5>Grand Motel gets an identity brushup</h5>
+                  <p>Identity</p>
+                </div>
+              </div>
+              <div>
+                <div><img src="img/work_item_2.jpg" alt="" class="img-fluid"></div>
+                <div class="flex flex-col align-center pt-2 pb-2">
+                  <h5>Fresh branding for a creative startup</h5>
+                  <p>Identity</p>
+                </div>
+              </div>
+            </div>
+            <div class="work_section_lower flex justify-between">
+              <div><img src="img/work_item_3.jpg" alt="" class="img-fluid"></div>
+              <div><img src="img/work_item_4.jpg" alt="" class="img-fluid"></div>
+              <div><img src="img/work_item_5.jpg" alt="" class="img-fluid"></div>
+              <div><img src="img/work_item_6.jpg" alt="" class="img-fluid"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <section class="section_4 flex flex-col align-center">
+    <div class="flex flex-col align-center">
+      <h2>Want to work with us?</h2>
+      <p>Magnis modipsae que voloratati andigen daepeditem quiate re porem aut labor. </p>
+      <p class="pb-2">Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam.</p>
+      <button class="btn">Get in touch</button>
+    </div>
+  </section>
   
 
+
+  <footer class="flex flex-col align-center pt-4">
+
+    <section >
+      <div class="flex justify-between">
+        <div>
+          <h4>Who we are</h4>
+          <!-- <div><img src="img/bg_logo.jpg" alt="" class="img-fluid"></div> -->
+          <p class="pb-1">Magnis modipsae voloratati andigen daepeditem quiate re porem que aut labor. Laceaque eictemperum quiae
+            sitiorem rest non restibusaes maio es dem tumquam.</p>
+          <a class="a-unstyle text-white" href="">More about us <span><i class="fas fa-arrow-right"></i></span></a>
+        </div>
+        <div class="footer_img">
+          <h4>Latest works</h4>
+          <div>
+            <div><img src="img/footer_1.jpg" alt="" class="img-fluid"></div>
+            <div><img src="img/footer_2.jpg" alt="" class="img-fluid"></div>
+            <div><img src="img/footer_3.jpg" alt="" class="img-fluid"></div>
+            <div><img src="img/footer_4.jpg" alt="" class="img-fluid"></div>
+          </div>
+        </div>
+        <div class="pl-2">
+          <h4>Get in touch</h4>
+          <p class="pb-1"> Doloreiur quia commolu ptatemp dolupta oreprerum tibusam eumenis et consent accullignis dentibea
+            autem inisita.</p>
+          <p><span><i class="fas fa-map-marker-alt"></i> 84 Street, City, State 24813</p>
+          <p><span><i class="fas fa-mobile-alt"></i></span> +00 (123) 456 78 90</p>
+          <p><span><i class="far fa-envelope"></i></span> info@reen.com</p>
+
+        </div>
+        <div>
+          <h4>Free updates</h4>
+          <p class="pb-2">Conecus iure posae volor remped modis aut lor volor accabora incim resto explabo.</p>
+          <form action="">
+            <div>
+              <input type="text" name="email" placeholder="Enter your email address" id="email">
+              <button class="btn">Subscribe</button>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </section>
+    
+  </footer>
+  <div class="last_section flex justify-center pt-2 pb-2">
+    <section class=" text-white flex justify-between">
+      <p>© 2014 REEN. All rights reserved.</p>
+      <div class="footer_nav flex">
+        <ul class="flex list-unstyle">
+          <li>Home</li>
+          <li>Portfolio</li>
+          <li>Blog</li>
+          <li>About</li>
+          <li>Services</li>
+        </ul>
+      </div>
+      <a href="#" class="arrow_float a-unstyle"><span><i class="fas fa-chevron-up"></i></span></a>
+    </section>
+  </div>
   <!-- build:js js/main.js -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
   <script src="js/script.js"></script>
   <!-- endbuild -->
 </body>

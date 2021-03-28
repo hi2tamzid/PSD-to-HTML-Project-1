@@ -20,12 +20,16 @@
 /* Element Styles */
 /* ---------------- */
 
+html{
+  scroll-behavior: smooth;
+}
 *{
 	margin: 0;
 	padding: 0;
 }
 
 body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -255,6 +259,7 @@ body{
 	padding-bottom: auto;
 }
 
+
 /* --------------- */
 /* Pre-defined CSS */
 /* --------------- */
@@ -271,9 +276,358 @@ body{
   list-style-type: none;
 }
 
+.flex{
+  display: flex;
+}
+
+.justify-center{
+  justify-content: center;
+}
+.justify-between{
+  justify-content: space-between;
+}
+
+
+.align-center{
+  align-items: center;
+}
+
+.img-fluid{
+  width: 100%;
+}
+
+.container{
+  width: 95%;
+}
+
+.width-full{
+  width: 100%;
+}
+
+.bd{
+  border: 1px solid blue;
+}
+.bg{
+  background-color: #3498db;
+}
+
+
+.flex-col{
+  flex-direction: column;
+}
+
+.text-white{
+  color: white;
+}
 
 /* ######  Start Styles ####### */
 
 
+/* ============== */
+/* Header Section */
+/* ============== */
 
 
+
+.bg-grey{
+  background-color: #f5f7fa;
+}
+.header_top{
+  max-width: 1200px;
+  justify-content: space-between;
+  padding: 1rem 0;
+  color: #798da2;
+  font-weight: bold;
+}
+
+
+
+.header_top div ul li{
+  padding: 0 1rem;
+}
+
+.navbar li a{
+  text-decoration: none;
+  color: #506a85;
+  
+}
+.header_bottom{
+  max-width: 1200px;
+  width: 100%;
+}
+.header_bottom .navbar li{
+  padding: 0px 1.5rem;
+}
+
+nav{
+  color: #506a85;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.btn_search{
+  font-size: 1rem;
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+
+
+/* ============= */
+/* First Section */
+/* ============= */
+
+.next_section{
+  background-image: url(../img/Home-Agency-Style-Desktop.jpg);
+  color: white;
+  padding-top: 18.5rem;
+  padding-bottom: 18.9rem;
+}
+.next_section div{
+  max-width: 1200px;
+  width: 100%;
+  flex-direction: column;
+}
+.next_section h1{
+  font-size: 5rem;
+  font-weight: normal;
+}
+.next_section p{
+  font-size: 1.5rem;
+  color: #c8d1da;
+  width: 70%;
+}
+
+.btn{
+  color: white;
+  padding: 1rem 4rem;
+  font-size: 1.1rem;
+  background-color: #00bc9c;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 0;
+  cursor: pointer;
+}
+
+
+.btn:active{
+  transform: scale(0.98);
+}
+
+.btn:focus{
+  outline: 0;
+}
+
+
+/* ============== */
+/* Second Section */
+/* ============== */
+
+.first_section{
+  padding: 8rem 0;
+}
+.first_section > div{
+  max-width: 1200px;
+  width: 100%;
+}
+
+.first_section > div h2{
+  font-size: 2.6rem;
+  color: #506a85;
+}
+
+.first_section > div > p{
+  text-align: center;
+  width: 73%;
+  font-size: 1.4rem;
+  color: #73879c;
+}
+
+.creative_box > div{
+  width: 23.8rem;
+  display: flex;
+}
+.creative_box > div span{
+  padding-right: 1.9rem;
+}
+.creative_box > div div h4{
+  font-size: 1.625rem;
+  padding-bottom: 1.7rem;
+  color: #506a85;
+}
+.creative_box > div div p{
+  color: #73879c;
+}
+.creative_box > div span i{
+  color: #00bc9c;
+  font-size: 4rem;
+}
+
+/* ========= */
+/* Section 3 */
+/* ========= */
+
+
+.section_3{
+  background-color: #f2f5f7;
+  padding: 7rem 0;
+}
+.section_3 div{
+  max-width: 1200px;
+  width: 100%;
+}
+.section_3 div h2{
+  font-size: 2.75rem;
+  color: #506a85;
+  padding-bottom: 2rem;
+}
+.section_3 div p{
+  font-size: 1.375rem;
+  color: #73879c;
+  padding-bottom: 4.4rem;
+}
+.work_section_upper{
+  padding-bottom: 4.75rem;
+}
+.work_section_upper div{
+  width: 35.625rem;
+  background-color: white;
+}
+.work_section_upper div h5{
+  font-size: 1.25rem;
+  color: #0b1118;
+}
+.work_section_upper div p{
+  font-size: 0.875rem;
+  color: #96a5b4;
+}
+.work_section_lower div{
+  width: 16.875rem;
+}
+
+/* ========= */
+/* Section 4 */
+/* ========= */
+
+
+.section_4{
+  padding: 7.8125rem 0;
+}
+.section_4 div h2{
+  font-size: 2.75rem;
+  color: #506a85;
+  padding: 2rem 0;
+}
+.section_4 div p{
+  font-size: 1.375rem;
+  color: #73879c;
+}
+.section_4 .btn{
+  padding: 1rem 2rem;
+}
+
+
+/* ====== */
+/* Footer */
+/* ====== */
+
+
+
+footer{
+  background-color: #2f4052;
+  color: white;
+}
+footer section{
+  max-width: 1200px;
+  width: 100%;
+}
+footer section div div{
+  width: 18rem;
+}
+footer section div div img{
+  width: 200px;
+}
+footer section div div h4{
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding-bottom: 1.375rem;
+}
+
+footer section p{
+  font-size: 0.875rem;
+}
+footer i{
+  color: white;
+}
+
+.footer_img div{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer_img div div{
+  width: 48%;
+  padding: 1%;
+}
+
+footer section form div{
+  display: flex;
+  background-color: #4e5c6c;
+  padding: 0.7rem;
+  width: 90%;
+}
+footer section form div input{
+  border: 0;
+  background: transparent;
+  outline: 0;
+  color: white;
+  width: 100%;
+}
+footer section form div input::placeholder{
+  color: #828e99;
+}
+footer section form div .btn{
+  padding: 0.5rem;  
+  border-radius: 5px;
+  font-size: 0.875rem;
+}
+
+
+/* ============ */
+/* Last Section */
+/* ============ */
+
+.last_section{
+  background-color: #283645;
+}
+
+.last_section section{
+  max-width: 1200px;
+  width: 100%;
+  position: relative;
+}
+.footer_nav ul li{
+  padding: 0 0.5rem;
+}
+.footer_nav ul li:before{
+  content: '\00B7';
+  padding-right: 0.5rem;
+}
+.footer_nav ul li:first-child:before{
+  content: none;
+}
+
+/* =================== */
+/* Extra: Arrow Design */
+/* =================== */
+
+.arrow_float{
+  position: absolute;
+  right: -64px;
+  bottom: -22px;
+  background-color: #3c5065;
+  padding: 1rem;
+
+  font-size: 1.3rem;
+  color: #949ba2;
+}
